@@ -1,4 +1,4 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+####################################### chapter3
 
 # dependencies
 my-components/node_modules
@@ -21,3 +21,27 @@ my-components/.env.production.local
 my-components/npm-debug.log*
 my-components/yarn-debug.log*
 my-components/yarn-error.log*
+
+####################################### chapter4
+
+# dependencies
+reactshop/node_modules
+reactshop/.pnp
+reactshop/.pnp.js
+
+# testing
+reactshop/coverage
+
+# production
+reactshop/build
+
+# misc
+reactshop/.DS_Store
+reactshop/.env.local
+reactshop/.env.development.local
+reactshop/.env.test.local
+reactshop/.env.production.local
+
+reactshop/npm-debug.log*
+reactshop/yarn-debug.log*
+reactshop/yarn-error.log*
