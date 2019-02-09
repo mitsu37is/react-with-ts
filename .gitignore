@@ -69,3 +69,27 @@ my-components/.env.production.local
 my-components/npm-debug.log*
 my-components/yarn-debug.log*
 my-components/yarn-error.log*
+
+####################################### chapter4
+
+# dependencies
+reactshop2/node_modules
+reactshop2/.pnp
+reactshop2/.pnp.js
+
+# testing
+reactshop2/coverage
+
+# production
+reactshop2/build
+
+# misc
+reactshop2/.DS_Store
+reactshop2/.env.local
+reactshop2/.env.development.local
+reactshop2/.env.test.local
+reactshop2/.env.production.local
+
+reactshop2/npm-debug.log*
+reactshop2/yarn-debug.log*
+reactshop2/yarn-error.log*
