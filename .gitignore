@@ -45,3 +45,27 @@ reactshop/.env.production.local
 reactshop/npm-debug.log*
 reactshop/yarn-debug.log*
 reactshop/yarn-error.log*
+
+####################################### chapter 3 2回目
+
+# dependencies
+my-components/node_modules
+my-components/.pnp
+my-components/.pnp.js
+
+# testing
+my-components/coverage
+
+# production
+my-components/build
+
+# misc
+my-components/.DS_Store
+my-components/.env.local
+my-components/.env.development.local
+my-components/.env.test.local
+my-components/.env.production.local
+
+my-components/npm-debug.log*
+my-components/yarn-debug.log*
+my-components/yarn-error.log*
