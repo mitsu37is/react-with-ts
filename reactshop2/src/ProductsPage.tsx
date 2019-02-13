@@ -56,7 +56,7 @@ class ProductsPage extends React.Component<RouteComponentProps, IState> {
             } else {
               return null;
             }
-          })}{" "}
+          })}
         </ul>
       </div>
     );
