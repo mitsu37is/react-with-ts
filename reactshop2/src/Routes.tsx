@@ -15,6 +15,7 @@ import Header from "./Header";
 import ProductPage from "./ProductPage";
 import NotFoundPage from "./NotFoundPage";
 import LoginPage from "./LoginPage";
+import ContactUsPage from "./ContactUsPage";
 
 const RoutesWrap: React.SFC = () => {
   return (
@@ -50,6 +51,7 @@ class Routes extends React.Component<RouteComponentProps, IState> {
                 <Redirect exact={true} from="/" to="/products" />
                 <Route exact={true} path="/products" component={ProductsPage} />
                 <Route path="/products/:id" component={ProductPage} />
+                <Route path="/contactus" component={ContactUsPage} />
                 <Route path="/admin">
                   {this.state.loggedIn ? (
                     <Suspense
