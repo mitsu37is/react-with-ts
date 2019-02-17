@@ -93,3 +93,27 @@ reactshop2/.env.production.local
 reactshop2/npm-debug.log*
 reactshop2/yarn-debug.log*
 reactshop2/yarn-error.log*
+
+####################################### chapter9
+
+# dependencies
+crud-api/node_modules
+crud-api/.pnp
+crud-api/.pnp.js
+
+# testing
+crud-api/coverage
+
+# production
+crud-api/build
+
+# misc
+crud-api/.DS_Store
+crud-api/.env.local
+crud-api/.env.development.local
+crud-api/.env.test.local
+crud-api/.env.production.local
+
+crud-api/npm-debug.log*
+crud-api/yarn-debug.log*
+crud-api/yarn-error.log*
