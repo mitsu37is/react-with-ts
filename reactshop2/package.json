@@ -38,6 +38,7 @@
     "@types/react-router-dom": "^4.3.1",
     "@types/react-transition-group": "^2.0.15",
     "@types/redux-thunk": "^2.1.0",
+    "react-testing-library": "^5.8.0",
     "tslint": "^5.12.1",
     "tslint-config-prettier": "^1.18.0",
     "tslint-react": "^3.6.0"
