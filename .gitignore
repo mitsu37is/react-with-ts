@@ -49,26 +49,26 @@ reactshop/yarn-error.log*
 ####################################### chapter 3 2回目
 
 # dependencies
-my-components/node_modules
-my-components/.pnp
-my-components/.pnp.js
+my-components-2/node_modules
+my-components-2/.pnp
+my-components-2/.pnp.js
 
 # testing
-my-components/coverage
+my-components-2/coverage
 
 # production
-my-components/build
+my-components-2/build
 
 # misc
-my-components/.DS_Store
-my-components/.env.local
-my-components/.env.development.local
-my-components/.env.test.local
-my-components/.env.production.local
+my-components-2/.DS_Store
+my-components-2/.env.local
+my-components-2/.env.development.local
+my-components-2/.env.test.local
+my-components-2/.env.production.local
 
-my-components/npm-debug.log*
-my-components/yarn-debug.log*
-my-components/yarn-error.log*
+my-components-2/npm-debug.log*
+my-components-2/yarn-debug.log*
+my-components-2/yarn-error.log*
 
 ####################################### chapter4
 
@@ -141,3 +141,27 @@ chapter3/.env.production.local
 chapter3/npm-debug.log*
 chapter3/yarn-debug.log*
 chapter3/yarn-error.log*
+
+####################################### chapter 3 2回目
+
+# dependencies
+my-components3/node_modules
+my-components3/.pnp
+my-components3/.pnp.js
+
+# testing
+my-components3/coverage
+
+# production
+my-components3/build
+
+# misc
+my-components3/.DS_Store
+my-components3/.env.local
+my-components3/.env.development.local
+my-components3/.env.test.local
+my-components3/.env.production.local
+
+my-components3/npm-debug.log*
+my-components3/yarn-debug.log*
+my-components3/yarn-error.log*
