@@ -117,3 +117,27 @@ crud-api/.env.production.local
 crud-api/npm-debug.log*
 crud-api/yarn-debug.log*
 crud-api/yarn-error.log*
+
+####################################### chapter3
+
+# dependencies
+chapter3/node_modules
+chapter3/.pnp
+chapter3/.pnp.js
+
+# testing
+chapter3/coverage
+
+# production
+chapter3/build
+
+# misc
+chapter3/.DS_Store
+chapter3/.env.local
+chapter3/.env.development.local
+chapter3/.env.test.local
+chapter3/.env.production.local
+
+chapter3/npm-debug.log*
+chapter3/yarn-debug.log*
+chapter3/yarn-error.log*
