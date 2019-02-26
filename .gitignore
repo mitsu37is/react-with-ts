@@ -165,3 +165,27 @@ my-components3/.env.production.local
 my-components3/npm-debug.log*
 my-components3/yarn-debug.log*
 my-components3/yarn-error.log*
+
+####################################### chapter4
+
+# dependencies
+reactshop3/node_modules
+reactshop3/.pnp
+reactshop3/.pnp.js
+
+# testing
+reactshop3/coverage
+
+# production
+reactshop3/build
+
+# misc
+reactshop3/.DS_Store
+reactshop3/.env.local
+reactshop3/.env.development.local
+reactshop3/.env.test.local
+reactshop3/.env.production.local
+
+reactshop3/npm-debug.log*
+reactshop3/yarn-debug.log*
+reactshop3/yarn-error.log*
