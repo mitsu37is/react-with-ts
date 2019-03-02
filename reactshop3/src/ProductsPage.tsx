@@ -1,6 +1,10 @@
 import * as React from "react";
 import { IProduct } from "./ProductsData";
-import { Link, RouteComponentProps } from "react-router-dom";
+import { RouteComponentProps } from "react-router-dom";
+import { connect } from "react-redux";
+import { IApplicationState } from "./Store";
+import { getProducts } from "./ProductsActions";
+import ProductsList from "./ProductsList";
 import "url-search-params-polyfill";
 import { connect } from "react-redux";
 import { IApplicationState } from "./Store";
@@ -13,7 +17,7 @@ interface IProps extends RouteComponentProps {
 }
 
 class ProductsPage extends React.Component<IProps> {
-  public async componentDidMount() {
+  public componentDidMount() {
     this.props.getProducts();
   }
 
@@ -25,23 +29,11 @@ class ProductsPage extends React.Component<IProps> {
         <p>
           Welcome to React Shop where you can get all your tools for ReactJS!
         </p>
-        <ul className="product-list">
-          {this.props.products.map(product => {
-            if (
-              !search ||
-              (search &&
-                product.name.toLowerCase().indexOf(search.toLowerCase()) > -1)
-            ) {
-              return (
-                <li key={product.id} className="product-list-item">
-                  <Link to={`/products/${product.id}`}>{product.name}</Link>
-                </li>
-              );
-            } else {
-              return null;
-            }
-          })}
-        </ul>
+        <ProductsList
+          search={search}
+          products={this.props.products}
+          loading={this.props.loading}
+        />
       </div>
     );
   }
@@ -54,7 +46,7 @@ const mapStateToProps = (store: IApplicationState) => {
   };
 };
 
-const mapDispatchToProps = (dispatch: any) => {
+const mapdispatchToProps = (dispatch: any) => {
   return {
     getProducts: () => dispatch(getProducts())
   };
@@ -62,5 +54,5 @@ const mapDispatchToProps = (dispatch: any) => {
 
 export default connect(
   mapStateToProps,
-  mapDispatchToProps
+  mapdispatchToProps
 )(ProductsPage);
