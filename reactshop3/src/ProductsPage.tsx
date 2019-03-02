@@ -6,6 +6,9 @@ import { IApplicationState } from "./Store";
 import { getProducts } from "./ProductsActions";
 import ProductsList from "./ProductsList";
 import "url-search-params-polyfill";
+import { connect } from "react-redux";
+import { IApplicationState } from "./Store";
+import { getProducts } from "./ProductsActions";
 
 interface IProps extends RouteComponentProps {
   getProducts: typeof getProducts;
