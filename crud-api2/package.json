@@ -29,6 +29,11 @@
     "not op_mini all"
   ],
   "devDependencies": {
+<<<<<<< HEAD
+=======
+    "@types/react": "^16.8.6",
+    "@types/react-dom": "^16.8.2",
+>>>>>>> 523e16d42190fed58010939ad1ced269c516b567
     "tslint": "^5.13.1",
     "tslint-config-prettier": "^1.18.0",
     "tslint-react": "^3.6.0"
