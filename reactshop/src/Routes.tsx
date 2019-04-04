@@ -1,5 +1,10 @@
 import * as React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Redirect,
+  Route,
+  Switch
+} from "react-router-dom";
 
 import AdminPage from "./AdminPage";
 import ProductsPage from "./ProductsPage";
@@ -13,9 +18,11 @@ const Routes: React.FC = () => {
       <div>
         <Header />
         <Switch>
+          <Redirect exact={true} from="/" to="/products" />
           <Route exact={true} path="/products" component={ProductsPage} />
           <Route path="/products/:id" component={ProductPage} />
           <Route path="/admin" component={AdminPage} />
+
           <Route component={NotFoundPage} />
         </Switch>
       </div>
